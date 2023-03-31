@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .head {
+        background-color: aqua;
+        height: 50px;
+        width: 100%;
+      }
+      p {
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        left: 450px;
+      }
+      .logo {
+        height: 100%;
+        width: 10%;
+        background-color: #434242;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #3d9282;
+      }
+      li {
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+      }
+      #navbar {
+        position: relative;
+        left: 360px;
+      }
+
+      .container {
+        /* background-color: aqua; */
+        display: flex;
+      }
+      .div1 {
+        height: 220px;
+        width: 35%;
+        background-color: #7149c6;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div2 {
+        height: 220px;
+        width: 35%;
+        background-color: #ffdd83;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div3 {
+        height: 220px;
+        width: 35%;
+        background-color: coral;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .circle {
+        background-color: #00425a;
+        display: flex;
+        /* border: 2px solid black; */
+        height: 250px;
+      }
+      .circle1 {
+        background: #ff7a59;
+        width: 215px;
+        height: 215px;
+        border-radius: 100%;
+        display: flex;
+        /* margin-left: -15px; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 14px;
+      }
+
+      .circle2 {
+        background: #557153;
+        width: 244px;
+        height: 250px;
+        border-radius: 50%;
+        display: flex;
+        text-align: center;
+        margin-left: 316px;
+        align-items: center;
+        justify-content: center;
+      }
+      .circle3 {
+        background: #39b5e0;
+        width: 215px;
+        height: 215px;
+        border-radius: 100%;
+        display: flex;
+        text-align: center;
+        /* margin-left: 250px; */
+        align-items: center;
+        justify-content: center;
+        margin: 14px;
+        margin-left: 275px;
+      }
+      .footer {
+        background-color: aqua;
+        height: 51px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="head">
+      <div class="logo"><center>Logo</center></div>
+
+      <p>Header</p>
+    </header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li id="navbar">Navbar</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="div1">Box1</div>
+      <div class="div2">Box2</div>
+      <div class="div3">Box3</div>
+    </div>
+    <div class="circle">
+      <div class="circle1">Circle1</div>
+      <div class="circle2">Circle2</div>
+      <div class="circle3">Circle3</div>
+    </div>
+    <footer class="footer">Footer</footer>
+  </body>
+</html>
